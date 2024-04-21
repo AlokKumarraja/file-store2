@@ -47,7 +47,7 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002015047072"))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002101910804')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe  Channel For Amazing Bot https://t.me/+Gl4J46d8TtgxMmVl
 # Ask Doubt on telegram @KingVJ01
 
 # File Caption Information
@@ -81,9 +81,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://file-store-bot-part1-hero.onrender.com"
+        URL = "https://fileanime-f9eeb1cd6909.herokuapp.com/"
     else:
-        URL = "https://file-store-bot-part1-hero.onrender.com"
+        URL = "https://fileanime-f9eeb1cd6909.herokuapp.com/"
 
 
 
